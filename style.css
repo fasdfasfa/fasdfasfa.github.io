@@ -71,7 +71,13 @@ li {
 }
 
 .myimg {
-    height: 740px;
+    height: 625px;
     display: flex;
     justify-content: right;
+}
+
+.container {
+    font-size: 32px;
+    position: relative;
+    color: white;
 }
