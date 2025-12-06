@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100wh;
+    height: 100vh;
+    background-image: url("./107876-art-monochrome-design-black-visual_arts-2560x1600.jpg");
+    background-size: cover;
+    background-position: center ;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.header {
+    width: 100%;
+    background-color: transparent;
+}
+
+.header .nav-bar {
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.header .nav-bar .logo {
+    z-index: 2;
+}
+
+.header .nav-bar .logo a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header .nav-bar .menu{
+    z-index: 2;
+}
+
+.header .nav-bar .menu ul li{
+    margin-right: 30px;
+}
+
+.header .nav-bar .menu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.8;
+    color: white;
+}
+
+.myimg {
+    height: 740px;
+    display: flex;
+    justify-content: right;
+}
